@@ -2,46 +2,43 @@ package com.thefear.my_notes.domain;
 
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.widget.EditText;
-
-import androidx.annotation.StringRes;
 
 public class Note implements Parcelable {
 
-    private String nameNote;
-    private String infoNote;
+    private String title;
+    private String info;
 
 
-    public void setNameNote(String nameNote) {
-        this.nameNote = nameNote;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public void setInfoNote(String infoNote) {
-        this.infoNote = infoNote;
+    public void setInfo(String info) {
+        this.info = info;
     }
 
-    public String getNameNote() {
-        return nameNote;
+    public String getTitle() {
+        return title;
     }
 
-    public String getInfoNote() {
-        return infoNote;
+    public String getInfo() {
+        return info;
     }
 
-    public Note(String nameNote, String infoNote) {
-        this.nameNote = nameNote;
-        this.infoNote = infoNote;
+    public Note(String title, String infoNote) {
+        this.title = title;
+        this.info = infoNote;
     }
 
     protected Note(Parcel in) {
-        nameNote = in.readString();
-        infoNote = in.readString();
+        title = in.readString();
+        info = in.readString();
     }
 
     @Override
     public void writeToParcel(Parcel dest, int flags) {
-        dest.writeString(nameNote);
-        dest.writeString(infoNote);
+        dest.writeString(title);
+        dest.writeString(info);
     }
 
     @Override

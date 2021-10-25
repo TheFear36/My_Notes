@@ -1,9 +1,6 @@
 package com.thefear.my_notes.domain;
 
-import com.thefear.my_notes.R;
-
 import java.util.ArrayList;
-import java.util.List;
 
 public class TestNotesRepository implements NotesRepository {
 

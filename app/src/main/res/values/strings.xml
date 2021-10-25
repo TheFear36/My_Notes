@@ -1,9 +1,13 @@
 <resources>
     <string name="app_name">My_Notes</string>
-    <string name="null_notes">У ВАС ЕЩЁ НЕТ ЗАМЕТОК</string>
-    <string name="create_note">+</string>
-    <string name="save_note">Сохранить</string>
-    <string name="enter_name">Введите название</string>
-    <string name="enter_info">Введите текст</string>
-
+    <string name="create_new_note">+</string>
+    <string name="settings">Settings</string>
+    <string name="title">Введите название</string>
+    <string name="info">Введите текст</string>
+    <string name="title_demo">Какая-то заметка</string>
+    <string name="save">Сохранить</string>
+    <string name="themes">Выбор темы</string>
+    <string name="settings_internet">Кэш из облачного хранилища</string>
+    <string name="about">О приложении</string>
+    <string name="back_to_menu">Вернуться в меню</string>
 </resources>
